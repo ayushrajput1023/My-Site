@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  text-align: center;   /*It will center all the elements*/
+  font-family: 'Ranga', cursive; /*here it will change the apperance of the text in body section. Sometimes the font will change in others browser so here we use "CSS web safe font",to find which are safe font then just google it and see it on w3 school or google "CSS font stack" */
+}
+
+
+
+h1{
+  font-size: 4.625rem; /* 16px = 100% = 1em.we can give the size of any element in "px","%","rem","em". Here,"em is phenotic pernounciation of M".when "rem" is used then it will not inherit any size from its parent.*/
+  margin-top: 0px;
+  /*line-height: 2;  this will give some space around h1 */
+  color:#66BFBF;
+  /* width:10%;    It is a block element so we fix width */
+}
+
+h2{
+  color:#66BFBF;
+  font-size:2.5rem;
+  font-weight: normal;/* 40px divide by 16px equals to 2.5em as 1em = 16px*/
+}
+
+/*
+img{
+  position:relative;    Using "Relative" wwe can change the position of the element.
+  left: 30px;         This line means img will move 30px from the left with respect to the main line of web page
+                       There are four coordinate of "Relative" that are "top","bottom","left","right" and these coordinates are a type of "margin" as in the box model thats why element will not move on top and right when it is on the corner of the web page.*/
+.footer-link{
+  color: #11999E;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.inter{
+  text-decoration: underline;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+/*  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  padding: 20px;  */
+
+}
+
+.middle-container{
+  margin: 100px 0;
+/*  background-color: red;
+  border: solid 20px;
+  margin-left: 260px;  */
+}
+
+.bottom-container{
+    background-color:#66BFBF;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 50px;
+/*  width: 200px;
+  height: 200px
+ border: solid 10px;
+  margin-left: 500px;   */
+}
+.firstcloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.secondcloud{
+  position: absolute;
+  left:300px;
+  bottom:320px;
+}
+
+.profile-image{
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+
+}
+.skill-image{
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  float: left;  /*Using float we can move the text adjacent to the image.*/
+  margin: 30px;  /*This will give the space between image and the text*/
+
+}
+
+.Hobbies-image{
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  float: right;  /*Using float we can move the text adjacent to the image.*/
+  margin: 30px;  /*This will give the space between image and the text*/
+
+}
+.skill-row{
+  width: 50%;
+margin:100px auto 100px auto;  /* It will give you the div in center of the web page*/
+text-align: left; /* This line will move the image and text to the left side.*/
+line-height:2;  /*This will give the gap between two lines and it has no units.*/
+
+}
+
+/*
+.p{
+  clear: left; using this,now nothing will be wrapped on the left side of the paragraph
+}
+
+.pa{
+  clear: right; using this,now nothing will be wrapped on the right side of the paragraph
+}
+*/
+
+.p{
+  color: #40514E;
+}
+
+.hr{
+  width: 70px;
+  border-style:dotted none none;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  margin: 50px auto;
+}
+
+.h3{
+  color:#66BFBF;
+}
+
+.lets{
+  margin-bottom: 60px;
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+    font-family: 'Ranga', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.end-p{
+  color: #EAF6F6;
+}
